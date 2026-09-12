@@ -1,0 +1,19 @@
+.theme-toggle{flex-shrink:0;min-height:44px;padding:9px 13px;border:1px solid #93b6dd;border-radius:12px;background:#fff;color:#071b4b;font:600 13px Inter,sans-serif;cursor:pointer}
+.theme-toggle[hidden]{display:none}.theme-toggle:focus-visible{outline:3px solid #159bff;outline-offset:4px}
+html[data-theme="dark"]{color-scheme:dark;--navy:#e9f1ff;--muted:#b8c8dc;--blue:#7fb9ff;--cloud:#091426}
+html[data-theme="dark"] body{background:#091426;color:#e9f1ff}
+html[data-theme="dark"] .header,html[data-theme="dark"] .masthead{background:#091426}
+html[data-theme="dark"] .service-card,html[data-theme="dark"] .values article,html[data-theme="dark"] .contact-card,html[data-theme="dark"] .product-steps,html[data-theme="dark"] details{background:#122139;border-color:#334b68}
+html[data-theme="dark"] .pale,html[data-theme="dark"] .pale .section{background:#0d1b30}
+html[data-theme="dark"] .contact-note{background:#19304b}
+html[data-theme="dark"] input,html[data-theme="dark"] select,html[data-theme="dark"] textarea,html[data-theme="dark"] .copy-button,html[data-theme="dark"] .theme-toggle{background:#0d1b30;color:#e9f1ff;border-color:#6583a7}
+html[data-theme="dark"] .hero-disciplines,html[data-theme="dark"] .footer p{color:#bccde4}
+html[data-theme="dark"] .service-icon,html[data-theme="dark"] .process b{background:#203c5c;color:#81c7ff}
+html[data-theme="dark"] .masthead h1 em{background-image:linear-gradient(100deg,#86bcff,#45e2eb)}
+html[data-theme="dark"] .logo{background:#fff;border-radius:9px;padding:5px}
+html[data-theme="dark"] body:before,html[data-theme="dark"] .footer:before{opacity:.13;mix-blend-mode:screen}
+html[data-theme="dark"] .skip{background:#122139;color:#fff}
+html[data-theme="dark"] .button{color:#fff;background:linear-gradient(110deg,#155eef,#075bba);border-color:#65bfff}
+html[data-theme="dark"] .button:hover{background:#164fa1}
+@media(max-width:1150px){.header{flex-wrap:wrap}.header>.button{display:none}}
+@media(max-width:650px){.header nav{order:3}.theme-toggle{margin-left:auto}}

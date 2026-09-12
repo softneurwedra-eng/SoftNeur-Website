@@ -9,12 +9,12 @@ if (form) {
     const data = new FormData(form);
     const label = form.elements.service.selectedOptions[0].textContent;
     prepared = `Bonjour SoftNeur,\n\nNom : ${data.get('name')}\nE-mail : ${data.get('email')}\nOrganisation : ${data.get('company') || 'Non précisée'}\nService : ${label}\n\n${data.get('message')}`;
-    document.querySelector('#form-status').textContent = 'Votre brouillon est prêt. Envoyez-le depuis votre messagerie. Si elle ne s’ouvre pas, copiez le message et adressez-le à softneur.wedra@gmail.com.';
+    document.querySelector('#form-status').textContent = 'Votre brouillon est prêt. Envoyez-le depuis votre messagerie. Si elle ne s’ouvre pas, copiez le message et adressez-le à contact@softneur.com.';
     document.querySelector('#copy-message').hidden = false;
-    location.href = `mailto:softneur.wedra@gmail.com?subject=${encodeURIComponent('Demande SoftNeur — '+label)}&body=${encodeURIComponent(prepared)}`;
+    location.href = `mailto:contact@softneur.com?subject=${encodeURIComponent('Demande SoftNeur — '+label)}&body=${encodeURIComponent(prepared)}`;
   });
   document.querySelector('#copy-message').addEventListener('click', async () => {
-    try { await navigator.clipboard.writeText(prepared); document.querySelector('#form-status').textContent = 'Message copié. Collez-le dans un e-mail destiné à softneur.wedra@gmail.com.'; }
+    try { await navigator.clipboard.writeText(prepared); document.querySelector('#form-status').textContent = 'Message copié. Collez-le dans un e-mail destiné à contact@softneur.com.'; }
     catch { document.querySelector('#form-status').textContent = 'La copie automatique est indisponible. Sélectionnez ce texte pour le copier :\n'+prepared; }
   });
 }
