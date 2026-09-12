@@ -1,0 +1,17 @@
+/* Motifs décoratifs sans texte inspirés du Brand Book SoftNeur. */
+body{background:#fff}
+body:before{content:'';position:absolute;top:0;right:0;width:300px;height:210px;pointer-events:none;background:url('softneur-brand-motifs.png') right top/800px auto no-repeat;opacity:.6}
+.header{position:relative;background:rgba(255,255,255,.72)}
+main>.section{position:relative;isolation:isolate}
+main>.section:before{content:none}
+.pale{background:#f8fcff;padding-bottom:70px}
+.pale .section{background:linear-gradient(180deg,#ffffffd9,#ffffffb8 80%,#ffffff50)}
+.service-card,.values article,.contact-card{background:rgba(255,255,255,.95)}
+.section-title .eyebrow:before{content:'';display:block;width:64px;height:2px;background:linear-gradient(90deg,#155eef,#11cdd4);margin-bottom:16px}
+.product-showcase{position:relative;isolation:isolate;padding-bottom:100px}
+.product-showcase:before{content:none}
+.product-steps{background:rgba(255,255,255,.88);border-radius:16px;padding:14px 24px}
+.footer{position:relative;isolation:isolate;padding-top:35px;padding-bottom:85px;min-height:210px}
+.footer:before{content:'';position:absolute;inset:-15px calc((100vw - 100%)/-2) 0;z-index:-1;pointer-events:none;background:url('softneur-brand-motifs.png') center bottom/cover no-repeat;opacity:.7}
+.footer a,.footer p{position:relative}.footer p{color:#31496f}
+@media(max-width:650px){.pale{padding-bottom:35px}.product-showcase{padding-bottom:60px}.product-steps{padding:12px 18px}.footer{padding-bottom:65px}.footer:before{background-size:auto 100%;background-position:center bottom}body:before{width:210px;height:155px;background-size:600px auto;opacity:.4}.header{background:#ffffffeb}}
