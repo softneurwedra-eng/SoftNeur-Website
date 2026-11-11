@@ -16,7 +16,7 @@ html[data-theme="dark"] .mast-art{background:radial-gradient(circle at 78% 48%,#
 html[data-theme="dark"] .mast-art img{mix-blend-mode:multiply;filter:brightness(1.35) contrast(1.08) saturate(1.22);opacity:.96}
 html[data-theme="dark"] .mast-art:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#091426 0,transparent 32%,transparent 82%,#09142655 100%)}
 html[data-theme="dark"] .mast-art span{z-index:1;color:#a7e9ff;text-shadow:0 1px 10px #00142b}
-html[data-theme="dark"] .logo{background:transparent;border-radius:0;padding:0;filter:invert(1) hue-rotate(180deg) brightness(1.12) contrast(1.08);mix-blend-mode:screen}
+html[data-theme="dark"] .logo{background:transparent;border-radius:0;padding:0;filter:none;mix-blend-mode:normal}
 html[data-theme="dark"] body:before,html[data-theme="dark"] .footer:before{opacity:.13;mix-blend-mode:screen}
 html[data-theme="dark"] .skip{background:#122139;color:#fff}
 html[data-theme="dark"] .button{color:#fff;background:linear-gradient(110deg,#155eef,#075bba);border-color:#65bfff}
