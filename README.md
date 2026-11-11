@@ -4,9 +4,9 @@ Site statique en français, sans dépendance JavaScript ni étape de compilation
 
 ## Aperçu local
 
-Les cinq pages sont générées par `python build_site.py` : accueil, solutions, services, à propos et contact. Modifier ce script pour les contenus partagés, puis régénérer. Le CSS est dans `site/assets/multipage.css`.
+Les sept pages sont générées par `python build_site.py` : accueil, solutions, services, à propos, contact, mentions légales et confidentialité. Modifier ce script pour les contenus partagés, puis régénérer. Le CSS est dans `site/assets/multipage.css`.
 
-Coordonnées validées à titre provisoire : +226 74 39 48 47 et softneur.wedra@gmail.com. Le formulaire utilise `mailto:` : il prépare un brouillon, sans envoi serveur. Aucun message n'est stocké par le site. Les statistiques, témoignages et portrait de démonstration des maquettes ne sont pas publiés.
+Coordonnées publiques : +226 74 39 48 47 et contact@softneur.com. Le formulaire utilise `mailto:` : il prépare un brouillon, sans envoi serveur. Aucun message n'est stocké par le site. Les statistiques et témoignages non vérifiés ne sont pas publiés.
 
 `python -m http.server 8002 --directory site --bind 127.0.0.1`
 

@@ -4,6 +4,8 @@ html[data-theme="dark"]{color-scheme:dark;--navy:#e9f1ff;--muted:#b8c8dc;--blue:
 html[data-theme="dark"] body{background:#091426;color:#e9f1ff}
 html[data-theme="dark"] .header,html[data-theme="dark"] .masthead{background:#091426}
 html[data-theme="dark"] .service-card,html[data-theme="dark"] .values article,html[data-theme="dark"] .contact-card,html[data-theme="dark"] .product-steps,html[data-theme="dark"] details{background:#122139;border-color:#334b68}
+html[data-theme="dark"] .identity-grid>div,html[data-theme="dark"] .legal-page dl div{background:#122139;border-color:#334b68}
+html[data-theme="dark"] .identity-grid strong,html[data-theme="dark"] .legal-page dd{color:#e9f1ff}
 html[data-theme="dark"] .pale,html[data-theme="dark"] .pale .section{background:#0d1b30}
 html[data-theme="dark"] .contact-note{background:#19304b}
 html[data-theme="dark"] input,html[data-theme="dark"] select,html[data-theme="dark"] textarea,html[data-theme="dark"] .copy-button,html[data-theme="dark"] .theme-toggle{background:#0d1b30;color:#e9f1ff;border-color:#6583a7}
